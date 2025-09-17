@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-09-17 01:09:41.918835800 UTC
+// 2025-09-17 23:32:14.532986900 UTC
 
 #![allow(non_upper_case_globals, non_camel_case_types, non_snake_case, unused)]
 
@@ -180,7 +180,7 @@ pub mod cs2_dumper {
                 pub const flFlinchModLarge: usize = 0x38; // float32
                 pub const flFriendlyFireDamageReductionRatio: usize = 0x3C; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 15
             //
             // Metadata:
@@ -1011,7 +1011,7 @@ pub mod cs2_dumper {
                 pub const m_bFastRetrigger: usize = 0x5FB; // bool
                 pub const m_bPassthoughCaller: usize = 0x5FC; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             pub mod SequenceHistory_t {
                 pub const m_hSequence: usize = 0x0; // HSequence
@@ -1430,7 +1430,7 @@ pub mod cs2_dumper {
                 pub const m_flFadeStartTime: usize = 0x830; // float32[1]
                 pub const m_flFadeDuration: usize = 0x834; // float32[1]
             }
-            // Parent: None
+            // Parent: 
             // Field count: 10
             pub mod CBuoyancyHelper {
                 pub const m_nFluidType: usize = 0x18; // CUtlStringToken
@@ -1526,7 +1526,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_WeaponM4A1Silencer {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 29
             //
             // Metadata:
@@ -1667,7 +1667,7 @@ pub mod cs2_dumper {
             pub mod CPulseCell_Value_Gradient {
                 pub const m_Gradient: usize = 0x48; // CColorGradient
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -1677,7 +1677,7 @@ pub mod cs2_dumper {
                 pub const m_timestamp: usize = 0x8; // GameTime_t
                 pub const m_nWorldGroupId: usize = 0xC; // WorldGroupId_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 5
             //
             // Metadata:
@@ -1837,7 +1837,7 @@ pub mod cs2_dumper {
                 pub const m_flWatTickOffset: usize = 0x1DC8; // float32
                 pub const m_flLastShakeTime: usize = 0x1DDC; // GameTime_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 7
             //
             // Metadata:
@@ -1880,7 +1880,7 @@ pub mod cs2_dumper {
                 pub const m_flExposureAdaptationSpeedDown: usize = 0x604; // float32
                 pub const m_flTonemapEVSmoothingRange: usize = 0x608; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -1907,7 +1907,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_WeaponMag7 {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -2013,7 +2013,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod CSpriteOriented {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 13
             //
             // Metadata:
@@ -2457,7 +2457,7 @@ pub mod cs2_dumper {
                 pub const m_pPredictionOwner: usize = 0x14C8; // CBasePlayerController*
                 pub const m_fNewestAlphaThinkTime: usize = 0x14D0; // GameTime_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 14
             //
             // Metadata:
@@ -2478,7 +2478,7 @@ pub mod cs2_dumper {
                 pub const m_flNewHDRColorScale: usize = 0x38; // float32
                 pub const m_flNewFarZ: usize = 0x3C; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 36
             //
             // Metadata:
@@ -2952,7 +2952,7 @@ pub mod cs2_dumper {
                 pub const m_hMaster: usize = 0x1460; // CHandle<C_BasePropDoor>
                 pub const m_vWhereToSetLightingOrigin: usize = 0x1464; // Vector
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -3143,7 +3143,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_LightDirectionalEntity {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 82
             //
             // Metadata:
@@ -3276,7 +3276,7 @@ pub mod cs2_dumper {
                 pub const m_sUniqueHammerID: usize = 0x5E8; // CUtlString
                 pub const m_nBloodType: usize = 0x5F0; // BloodType
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -3494,7 +3494,7 @@ pub mod cs2_dumper {
                 pub const m_materialGroup: usize = 0x494; // CUtlStringToken
                 pub const m_nHitboxSet: usize = 0x498; // uint8
             }
-            // Parent: None
+            // Parent: 
             // Field count: 0
             pub mod CEntityComponent {
             }
@@ -3713,7 +3713,7 @@ pub mod cs2_dumper {
                 pub const m_vSmokeColor: usize = 0x854; // Vector
                 pub const m_szAnimClass: usize = 0x860; // CGlobalSymbol
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             //
             // Metadata:
@@ -4018,7 +4018,7 @@ pub mod cs2_dumper {
                 pub const m_vMaxs: usize = 0x6CC; // Vector
             }
             // Parent: CPlayer_MovementServices_Humanoid
-            // Field count: 38
+            // Field count: 39
             //
             // Metadata:
             // NetworkVarNames: m_vecLadderNormal (Vector)
@@ -4039,6 +4039,7 @@ pub mod cs2_dumper {
             // NetworkVarNames: m_flOffsetTickCompleteTime (float)
             // NetworkVarNames: m_flOffsetTickStashedSpeed (float)
             // NetworkVarNames: m_flStamina (float)
+            // NetworkVarNames: m_vecInputRotated (Vector)
             // NetworkVarNames: m_bWasSurfing (bool)
             pub mod CCSPlayer_MovementServices {
                 pub const m_vecLadderNormal: usize = 0x280; // Vector
@@ -4072,15 +4073,16 @@ pub mod cs2_dumper {
                 pub const m_flOffsetTickCompleteTime: usize = 0x520; // float32
                 pub const m_flOffsetTickStashedSpeed: usize = 0x524; // float32
                 pub const m_flStamina: usize = 0x528; // float32
-                pub const m_flHeightAtJumpStart: usize = 0x52C; // float32
-                pub const m_flMaxJumpHeightThisJump: usize = 0x530; // float32
-                pub const m_flMaxJumpHeightLastJump: usize = 0x534; // float32
-                pub const m_flStaminaAtJumpStart: usize = 0x538; // float32
-                pub const m_flAccumulatedJumpError: usize = 0x53C; // float32
-                pub const m_flTicksSinceLastSurfingDetected: usize = 0x540; // float32
-                pub const m_bWasSurfing: usize = 0x544; // bool
+                pub const m_vecInputRotated: usize = 0x52C; // Vector
+                pub const m_flHeightAtJumpStart: usize = 0x538; // float32
+                pub const m_flMaxJumpHeightThisJump: usize = 0x53C; // float32
+                pub const m_flMaxJumpHeightLastJump: usize = 0x540; // float32
+                pub const m_flStaminaAtJumpStart: usize = 0x544; // float32
+                pub const m_flAccumulatedJumpError: usize = 0x548; // float32
+                pub const m_flTicksSinceLastSurfingDetected: usize = 0x54C; // float32
+                pub const m_bWasSurfing: usize = 0x550; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 5
             //
             // Metadata:
@@ -4118,7 +4120,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_FuncBrush {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 3
             //
             // Metadata:
@@ -4179,7 +4181,7 @@ pub mod cs2_dumper {
                 pub const m_OuterAngle: usize = 0xED8; // float32
                 pub const m_SpotRadius: usize = 0xEDC; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 3
             //
             // Metadata:
@@ -4285,7 +4287,7 @@ pub mod cs2_dumper {
             pub mod C_EnvWindClientside {
                 pub const m_EnvWindShared: usize = 0x5F8; // C_EnvWindShared
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             //
             // Metadata:
@@ -4307,7 +4309,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_FlashbangProjectile {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -4466,7 +4468,7 @@ pub mod cs2_dumper {
                 pub const m_iEnemyKnifeKills: usize = 0x74; // int32
                 pub const m_iEnemyTaserKills: usize = 0x78; // int32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -4494,7 +4496,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod CHostageRescueZone {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -4557,7 +4559,7 @@ pub mod cs2_dumper {
             pub mod C_CSGameRulesProxy {
                 pub const m_pGameRules: usize = 0x5F8; // C_CSGameRules*
             }
-            // Parent: None
+            // Parent: 
             // Field count: 17
             //
             // Metadata:
@@ -4972,7 +4974,7 @@ pub mod cs2_dumper {
             pub mod FilterDamageType {
                 pub const m_iDamageType: usize = 0x650; // int32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -5385,7 +5387,7 @@ pub mod cs2_dumper {
                 pub const m_flWaterWorldZ: usize = 0x13A0; // float32
                 pub const m_flWaterNextTraceTime: usize = 0x13A4; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 11
             //
             // Metadata:
@@ -5523,7 +5525,7 @@ pub mod cs2_dumper {
                 pub const m_bIsOtherEnemy: usize = 0x74; // bool
                 pub const m_killType: usize = 0x75; // EKillTypes_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -5696,7 +5698,7 @@ pub mod cs2_dumper {
                 pub const m_flPreviousUpdateTickTime: usize = 0x660; // GameTime_t
                 pub const m_vecPreviousTestPoint: usize = 0x664; // Vector
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -6069,7 +6071,7 @@ pub mod cs2_dumper {
             // Field count: 0
             pub mod C_HEGrenadeProjectile {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 24
             //
             // Metadata:
@@ -6257,7 +6259,7 @@ pub mod cs2_dumper {
                 pub const m_bSpotted: usize = 0x8; // bool
                 pub const m_bSpottedByMask: usize = 0xC; // uint32[2]
             }
-            // Parent: None
+            // Parent: 
             // Field count: 25
             //
             // Metadata:
@@ -6904,7 +6906,7 @@ pub mod cs2_dumper {
                 pub const m_OnPass: usize = 0x600; // CEntityIOOutput
                 pub const m_OnFail: usize = 0x628; // CEntityIOOutput
             }
-            // Parent: None
+            // Parent: 
             // Field count: 1
             //
             // Metadata:
@@ -7015,7 +7017,7 @@ pub mod cs2_dumper {
                 pub const m_ubSignature: usize = 0xF1D; // uint8[128]
                 pub const m_SprayRenderHelper: usize = 0xFA8; // CPlayerSprayDecalRenderHelper
             }
-            // Parent: None
+            // Parent: 
             // Field count: 11
             //
             // Metadata:

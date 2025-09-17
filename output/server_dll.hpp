@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-09-17 01:09:41.918835800 UTC
+// 2025-09-17 23:32:14.532986900 UTC
 
 #pragma once
 
@@ -2879,7 +2879,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bFastRetrigger = 0x4F3; // bool
                 constexpr std::ptrdiff_t m_bPassthoughCaller = 0x4F4; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             namespace SequenceHistory_t {
                 constexpr std::ptrdiff_t m_hSequence = 0x0; // HSequence
@@ -3226,7 +3226,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_nGraphCreationFlagsAG2 = 0x5B8; // uint8
                 constexpr std::ptrdiff_t m_nServerGraphDefReloadCountAG2 = 0x5F8; // int32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 10
             namespace CBuoyancyHelper {
                 constexpr std::ptrdiff_t m_nFluidType = 0x18; // CUtlStringToken
@@ -3577,7 +3577,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iInputFilter = 0x868; // int32
                 constexpr std::ptrdiff_t m_iDontMessageParent = 0x86C; // int32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -3587,7 +3587,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_timestamp = 0x8; // GameTime_t
                 constexpr std::ptrdiff_t m_nWorldGroupId = 0xC; // WorldGroupId_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 5
             //
             // Metadata:
@@ -3619,7 +3619,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CWeaponM4A1Silencer {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 7
             //
             // Metadata:
@@ -3646,7 +3646,7 @@ namespace cs2_dumper {
             // MPropertyDescription
             namespace CPulseCursorFuncs {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -3818,7 +3818,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iHltvReplayEntity = 0xD6C; // CEntityIndex
                 constexpr std::ptrdiff_t m_sndOpvarLatchData = 0xD70; // CUtlVector<sndopvarlatchdata_t>
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -3918,7 +3918,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CPointServerCommand {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 13
             //
             // Metadata:
@@ -4589,7 +4589,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CFuncMoverAPI {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 33
             //
             // Metadata:
@@ -4949,7 +4949,7 @@ namespace cs2_dumper {
             namespace CSingleplayRules {
                 constexpr std::ptrdiff_t m_bSinglePlayerGameEnding = 0xC0; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 17
             //
             // Metadata:
@@ -5152,7 +5152,7 @@ namespace cs2_dumper {
             namespace CMapSharedEnvironment {
                 constexpr std::ptrdiff_t m_targetMapName = 0x4F0; // CUtlSymbolLarge
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -5285,7 +5285,7 @@ namespace cs2_dumper {
             namespace CPulseCell_Outflow_ListenForEntityOutput__CursorState_t {
                 constexpr std::ptrdiff_t m_entity = 0x0; // CHandle<CBaseEntity>
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -5516,7 +5516,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_materialGroup = 0x3F4; // CUtlStringToken
                 constexpr std::ptrdiff_t m_nHitboxSet = 0x3F8; // uint8
             }
-            // Parent: None
+            // Parent: 
             // Field count: 0
             namespace CEntityComponent {
             }
@@ -5906,7 +5906,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_wasRestored = 0x50C; // bool
                 constexpr std::ptrdiff_t m_integrator = 0x510; // CConstantForceController
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             //
             // Metadata:
@@ -6094,7 +6094,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vWindDirection = 0x58C; // Vector
                 constexpr std::ptrdiff_t m_bFirstTime = 0x598; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 13
             namespace CBot {
                 constexpr std::ptrdiff_t m_pController = 0x10; // CCSPlayerController*
@@ -6418,7 +6418,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_shakeCallback = 0x528; // CPhysicsShake
             }
             // Parent: CPlayer_MovementServices_Humanoid
-            // Field count: 40
+            // Field count: 41
             //
             // Metadata:
             // NetworkVarNames: m_vecLadderNormal (Vector)
@@ -6439,6 +6439,7 @@ namespace cs2_dumper {
             // NetworkVarNames: m_flOffsetTickCompleteTime (float)
             // NetworkVarNames: m_flOffsetTickStashedSpeed (float)
             // NetworkVarNames: m_flStamina (float)
+            // NetworkVarNames: m_vecInputRotated (Vector)
             // NetworkVarNames: m_bWasSurfing (bool)
             namespace CCSPlayer_MovementServices {
                 constexpr std::ptrdiff_t m_vecLadderNormal = 0x288; // Vector
@@ -6474,15 +6475,16 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flOffsetTickCompleteTime = 0x530; // float32
                 constexpr std::ptrdiff_t m_flOffsetTickStashedSpeed = 0x534; // float32
                 constexpr std::ptrdiff_t m_flStamina = 0x538; // float32
-                constexpr std::ptrdiff_t m_flHeightAtJumpStart = 0x53C; // float32
-                constexpr std::ptrdiff_t m_flMaxJumpHeightThisJump = 0x540; // float32
-                constexpr std::ptrdiff_t m_flMaxJumpHeightLastJump = 0x544; // float32
-                constexpr std::ptrdiff_t m_flStaminaAtJumpStart = 0x548; // float32
-                constexpr std::ptrdiff_t m_flAccumulatedJumpError = 0x54C; // float32
-                constexpr std::ptrdiff_t m_flTicksSinceLastSurfingDetected = 0x550; // float32
-                constexpr std::ptrdiff_t m_bWasSurfing = 0x554; // bool
+                constexpr std::ptrdiff_t m_vecInputRotated = 0x53C; // Vector
+                constexpr std::ptrdiff_t m_flHeightAtJumpStart = 0x548; // float32
+                constexpr std::ptrdiff_t m_flMaxJumpHeightThisJump = 0x54C; // float32
+                constexpr std::ptrdiff_t m_flMaxJumpHeightLastJump = 0x550; // float32
+                constexpr std::ptrdiff_t m_flStaminaAtJumpStart = 0x554; // float32
+                constexpr std::ptrdiff_t m_flAccumulatedJumpError = 0x558; // float32
+                constexpr std::ptrdiff_t m_flTicksSinceLastSurfingDetected = 0x55C; // float32
+                constexpr std::ptrdiff_t m_bWasSurfing = 0x560; // bool
             }
-            // Parent: None
+            // Parent: 
             // Field count: 5
             //
             // Metadata:
@@ -6636,7 +6638,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flWindMapMin = 0x5D0; // float32
                 constexpr std::ptrdiff_t m_flWindMapMax = 0x5D4; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 3
             //
             // Metadata:
@@ -6769,7 +6771,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flAvgInterval = 0x508; // float32
                 constexpr std::ptrdiff_t m_Velocity = 0x510; // CEntityOutputTemplate<float32>
             }
-            // Parent: None
+            // Parent: 
             // Field count: 3
             //
             // Metadata:
@@ -6891,7 +6893,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flMaxTurnRate = 0x508; // float32
                 constexpr std::ptrdiff_t m_flLastGameTime = 0x50C; // GameTime_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 6
             //
             // Metadata:
@@ -6913,7 +6915,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CWeaponP250 {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 4
             //
             // Metadata:
@@ -7231,7 +7233,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_iEntryCount = 0xB4; // int32
                 constexpr std::ptrdiff_t m_iEntryWins = 0xB8; // int32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -7335,7 +7337,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CWorld {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -7385,7 +7387,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CTriggerGravity {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 17
             //
             // Metadata:
@@ -7938,7 +7940,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsOn = 0x544; // bool
                 constexpr std::ptrdiff_t m_pNext = 0x548; // CPointCamera*
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -8727,7 +8729,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CDecoyGrenade {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 13
             //
             // Metadata:
@@ -8842,7 +8844,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_vecViewOffset = 0x7B8; // CNetworkViewOffsetVector
                 constexpr std::ptrdiff_t m_bvDisabledHitGroups = 0x7E8; // uint32[1]
             }
-            // Parent: None
+            // Parent: 
             // Field count: 14
             //
             // Metadata:
@@ -8863,7 +8865,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_flNewHDRColorScale = 0x38; // float32
                 constexpr std::ptrdiff_t m_flNewFarZ = 0x3C; // float32
             }
-            // Parent: None
+            // Parent: 
             // Field count: 11
             //
             // Metadata:
@@ -9001,7 +9003,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsOtherEnemy = 0x74; // bool
                 constexpr std::ptrdiff_t m_killType = 0x75; // EKillTypes_t
             }
-            // Parent: None
+            // Parent: 
             // Field count: 8
             //
             // Metadata:
@@ -9159,7 +9161,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_distance = 0x4F4; // float32
                 constexpr std::ptrdiff_t m_directionEntityName = 0x4F8; // CUtlSymbolLarge
             }
-            // Parent: None
+            // Parent: 
             // Field count: 80
             //
             // Metadata:
@@ -9295,7 +9297,7 @@ namespace cs2_dumper {
             // Field count: 0
             namespace CPlayer_UseServices {
             }
-            // Parent: None
+            // Parent: 
             // Field count: 2
             //
             // Metadata:
@@ -9778,7 +9780,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnNewPhaseStarted = 0xEC8; // CEntityOutputTemplate<int32>
                 constexpr std::ptrdiff_t m_OnLevelTransition = 0xEF0; // CEntityOutputTemplate<int32>
             }
-            // Parent: None
+            // Parent: 
             // Field count: 24
             //
             // Metadata:
@@ -10110,7 +10112,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bSpotted = 0x8; // bool
                 constexpr std::ptrdiff_t m_bSpottedByMask = 0xC; // uint32[2]
             }
-            // Parent: None
+            // Parent: 
             // Field count: 25
             //
             // Metadata:
@@ -11211,7 +11213,7 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_OnPass = 0x4F8; // CEntityIOOutput
                 constexpr std::ptrdiff_t m_OnFail = 0x520; // CEntityIOOutput
             }
-            // Parent: None
+            // Parent: 
             // Field count: 1
             //
             // Metadata:
@@ -11323,7 +11325,7 @@ namespace cs2_dumper {
             namespace CPointClientUIWorldTextPanel {
                 constexpr std::ptrdiff_t m_messageText = 0x9F8; // char[512]
             }
-            // Parent: None
+            // Parent: 
             // Field count: 11
             //
             // Metadata:
