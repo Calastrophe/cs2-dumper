@@ -1,36 +1,36 @@
-07:01:54 [INFO] scanning "C:\\Users\\neo\\Documents\\memflow" for libraries
-07:01:54 [INFO] adding plugin 'OS/native': "C:\\Users\\neo\\Documents\\memflow\\memflow_native_2483e52.dll"
-07:01:54 [INFO] adding plugin 'OS/win32': "C:\\Users\\neo\\Documents\\memflow\\memflow_win32_6f21153.dll"
-07:01:54 [INFO] adding plugin 'Connector/winio': "C:\\Users\\neo\\Documents\\memflow\\memflow_winio_9695aae.dll"
-07:01:54 [INFO] scanning "C:\\Users\\neo\\Documents\\Programming\\cs2-dumper" for libraries
-07:01:54 [INFO] attempting to load `Connector` type plugin `winio` from `C:\Users\neo\Documents\memflow\memflow_winio_9695aae.dll`
-07:01:57 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
-07:01:57 [INFO] attempting to load `OS` type plugin `win32` from `C:\Users\neo\Documents\memflow\memflow_win32_6f21153.dll`
-07:01:57 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
-07:01:57 [INFO] arch=X86(64, false) kernel_hint=fffff804301f9390 dtb=1ad000
-07:01:57 [INFO] base=fffff8042fe00000 size=17063936
-07:01:57 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "F388D1C459C2DC9E81F891D0760A56CD1" })
-07:01:57 [INFO] trying to find NtBuildNumber export
-07:01:57 [INFO] NtBuildNumber found at 0xc12120
-07:01:57 [INFO] trying to find RtlGetVersion export
-07:01:57 [INFO] RtlGetVersion found at 0x68f5d0
-07:01:57 [INFO] nt_build_number: 4026550885
-07:01:57 [INFO] kernel version: 10.0.19045
-07:01:57 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026550885 }
-07:01:57 [INFO] PsInitialSystemProcess found at 0xfffff80430afc420
-07:01:57 [INFO] eprocess_base=ffffe28a1cd23080
-07:01:57 [INFO] start_block.dtb=1ad000
-07:01:57 [INFO] reading pdb from local cache: C:\Users\neo\AppData\Local\memflow\ntkrnlmp.pdb\F388D1C459C2DC9E81F891D0760A56CD1
-07:01:57 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=9f000 real_base=1000
+08:06:01 [INFO] scanning "C:\\Users\\neo\\Documents\\memflow" for libraries
+08:06:01 [INFO] adding plugin 'OS/native': "C:\\Users\\neo\\Documents\\memflow\\memflow_native_2483e52.dll"
+08:06:01 [INFO] adding plugin 'OS/win32': "C:\\Users\\neo\\Documents\\memflow\\memflow_win32_6f21153.dll"
+08:06:01 [INFO] adding plugin 'Connector/winio': "C:\\Users\\neo\\Documents\\memflow\\memflow_winio_9695aae.dll"
+08:06:01 [INFO] scanning "C:\\Users\\neo\\Documents\\Programming\\cs2-dumper" for libraries
+08:06:01 [INFO] attempting to load `Connector` type plugin `winio` from `C:\Users\neo\Documents\memflow\memflow_winio_9695aae.dll`
+08:06:03 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
+08:06:03 [INFO] attempting to load `OS` type plugin `win32` from `C:\Users\neo\Documents\memflow\memflow_win32_6f21153.dll`
+08:06:03 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
+08:06:03 [INFO] arch=X86(64, false) kernel_hint=fffff8063b5f9390 dtb=1ad000
+08:06:03 [INFO] base=fffff8063b200000 size=17063936
+08:06:03 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "F388D1C459C2DC9E81F891D0760A56CD1" })
+08:06:03 [INFO] trying to find NtBuildNumber export
+08:06:03 [INFO] NtBuildNumber found at 0xc12120
+08:06:03 [INFO] trying to find RtlGetVersion export
+08:06:03 [INFO] RtlGetVersion found at 0x68f5d0
+08:06:03 [INFO] nt_build_number: 4026550885
+08:06:03 [INFO] kernel version: 10.0.19045
+08:06:03 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026550885 }
+08:06:03 [INFO] PsInitialSystemProcess found at 0xfffff8063befc420
+08:06:03 [INFO] eprocess_base=ffff9f8ec9725080
+08:06:03 [INFO] start_block.dtb=1ad000
+08:06:03 [INFO] reading pdb from local cache: C:\Users\neo\AppData\Local\memflow\ntkrnlmp.pdb\F388D1C459C2DC9E81F891D0760A56CD1
+08:06:03 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=9f000 real_base=1000
 MemoryMapping: base=100000 size=99ff000 real_base=100000
 MemoryMapping: base=a000000 size=200000 real_base=a000000
 MemoryMapping: base=a210000 size=df0000 real_base=a210000
 MemoryMapping: base=b021000 size=64110000 real_base=b021000
 MemoryMapping: base=79fff000 size=1ffc000 real_base=79fff000
 MemoryMapping: base=100000000 size=f7de80000 real_base=100000000
-07:01:57 [INFO] updating sysproc_dtb=1ad000
-07:01:57 [INFO] found 16 buttons
-07:01:57 [INFO] found 132 interfaces across 33 modules
-07:01:58 [INFO] found 32 offsets across 5 modules
-07:01:58 [INFO] found 2680 classes and 411 enums across 18 modules
-07:01:58 [INFO] analysis completed in 752.49ms
+08:06:03 [INFO] updating sysproc_dtb=1ad000
+08:06:03 [INFO] found 16 buttons
+08:06:04 [INFO] found 132 interfaces across 33 modules
+08:06:04 [INFO] found 32 offsets across 5 modules
+08:06:04 [INFO] found 2680 classes and 411 enums across 18 modules
+08:06:04 [INFO] analysis completed in 1.01s
