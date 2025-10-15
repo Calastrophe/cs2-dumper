@@ -1,5 +1,36 @@
-12:39:30 [INFO] found 16 buttons
-12:39:30 [INFO] found 133 interfaces across 34 modules
-12:39:31 [INFO] found 32 offsets across 5 modules
-12:39:31 [INFO] found 2680 classes and 411 enums across 18 modules
-12:39:31 [INFO] analysis completed in 1.31s
+08:09:25 [INFO] scanning "C:\\Users\\neo\\Documents\\memflow" for libraries
+08:09:25 [INFO] adding plugin 'OS/native': "C:\\Users\\neo\\Documents\\memflow\\memflow_native_2483e52.dll"
+08:09:25 [INFO] adding plugin 'OS/win32': "C:\\Users\\neo\\Documents\\memflow\\memflow_win32_6f21153.dll"
+08:09:25 [INFO] adding plugin 'Connector/winio': "C:\\Users\\neo\\Documents\\memflow\\memflow_winio_9695aae.dll"
+08:09:25 [INFO] scanning "C:\\Users\\neo\\Documents\\Programming\\cs2-dumper-fix" for libraries
+08:09:25 [INFO] attempting to load `Connector` type plugin `winio` from `C:\Users\neo\Documents\memflow\memflow_winio_9695aae.dll`
+08:09:28 [INFO] Inserting `CachedPhysicalMemory` middleware with size=0, validity_time=0, page_size=4096
+08:09:28 [INFO] attempting to load `OS` type plugin `win32` from `C:\Users\neo\Documents\memflow\memflow_win32_6f21153.dll`
+08:09:28 [INFO] Building kernel of type memflow_win32::win32::kernel_builder::Win32KernelBuilder<memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::plugins::connector::cglue_connectorinstance::cglue_internal::ConnectorInstance<cglue::boxed::CBox<cglue::trait_group::c_void>, cglue::arc::CArc<cglue::trait_group::c_void>>, memflow::mem::virt_translate::cache::CachedVirtualTranslate<memflow::mem::virt_translate::direct_translate::DirectTranslate, memflow::types::cache::timed_validator::TimedCacheValidator>>
+08:09:28 [INFO] arch=X86(64, false) kernel_hint=fffff80075ff9390 dtb=1ad000
+08:09:28 [INFO] base=fffff80075c00000 size=17063936
+08:09:28 [INFO] kernel_guid=Some(Win32Guid { file_name: "ntkrnlmp.pdb", guid: "F388D1C459C2DC9E81F891D0760A56CD1" })
+08:09:28 [INFO] trying to find NtBuildNumber export
+08:09:28 [INFO] NtBuildNumber found at 0xc12120
+08:09:28 [INFO] trying to find RtlGetVersion export
+08:09:28 [INFO] RtlGetVersion found at 0x68f5d0
+08:09:28 [INFO] nt_build_number: 4026550885
+08:09:28 [INFO] kernel version: 10.0.19045
+08:09:28 [INFO] kernel_winver=Win32Version { nt_major_version: 10, nt_minor_version: 0, nt_build_number: 4026550885 }
+08:09:28 [INFO] PsInitialSystemProcess found at 0xfffff800768fc420
+08:09:28 [INFO] eprocess_base=ffff988f00d25080
+08:09:28 [INFO] start_block.dtb=1ad000
+08:09:28 [INFO] reading pdb from local cache: C:\Users\neo\AppData\Local\memflow\ntkrnlmp.pdb\F388D1C459C2DC9E81F891D0760A56CD1
+08:09:28 [INFO] updating connector mem_map=MemoryMapping: base=1000 size=9f000 real_base=1000
+MemoryMapping: base=100000 size=99ff000 real_base=100000
+MemoryMapping: base=a000000 size=200000 real_base=a000000
+MemoryMapping: base=a210000 size=df0000 real_base=a210000
+MemoryMapping: base=b021000 size=64110000 real_base=b021000
+MemoryMapping: base=79fff000 size=1ffc000 real_base=79fff000
+MemoryMapping: base=100000000 size=f7de80000 real_base=100000000
+08:09:28 [INFO] updating sysproc_dtb=1ad000
+08:09:28 [INFO] found 16 buttons
+08:09:28 [INFO] found 132 interfaces across 33 modules
+08:09:29 [INFO] found 32 offsets across 5 modules
+08:09:29 [INFO] found 1652 classes and 152 enums across 19 modules
+08:09:29 [INFO] analysis completed in 938.62ms
