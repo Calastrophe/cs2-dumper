@@ -15114,11 +15114,6 @@
           "VIRTUAL_NODE_SCHEMA_STICKER": 3
         },
         "type": "uint32"
-      },
-      "PF_MAP_TYPE_DIRECT": {
-        "alignment": 0,
-        "members": {},
-        "type": "unknown"
       }
     }
   }
